@@ -1,0 +1,114 @@
+
+h1 origamiheading {
+    color: #7df9ff;
+    background-color: #000000;
+    opacity: 1;
+    text-align: center;
+    font-family: Verdana, arial, sans-serif;
+}
+.origamihead{
+   text-align: center;
+   font-size: 30px;
+   color: #000000;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: verdana,sans-serif;
+ }
+.colori{
+    background-color: #ffffff;
+    opacity: 0.3;
+    padding-top:10px;
+    padding-bottom:10px;
+     }
+
+.site2 {
+    padding-left: 50px;
+}
+.image1 {
+    display: flex;
+    border-radius: 25px;
+    border:  2px solid #000000;
+    justify-content: space-between;
+}
+.siteimage{
+    background-image: url("origami.jpg");
+    height: 350px;
+
+  }
+
+.instructionscolor{
+    background-color: #dd2c00;
+    padding-top: 2px;
+    border: solid #dd2c00;
+
+}
+.instructionscolor2{
+    background-color: #ff5722;
+    padding-top: 2px;
+    border: solid #ff5722;
+
+}
+.instructionscolor3{
+    background-color: #00b7c2;
+    padding-top: 2px;
+    border: solid #00b7c2;
+
+}
+.instructionscolor4{
+    background-color: #0f4c75;
+    padding-top: 2px;
+    border: solid #0f4c75;
+
+}
+.colortext{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+.colortext2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+.colortext3{
+    color:#F5F5F5;
+    text-align: center;
+    font-size: 30px;
+}
+.origami{
+    display: flex;
+    border-radius: 20px;
+    background-color: #e9b014;
+    width: 310px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    margin: 25px;
+    margin-left: 50px;
+}
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.topnavigator {
+  overflow: hidden;
+  background-color:  #323336;
+}
+.topnavigator a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnavigator a.active {
+  background-color: #f07205;
+  color: white;
+}
